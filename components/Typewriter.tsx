@@ -33,9 +33,9 @@ export function Typewriter() {
   }, [text, deleting, index]);
 
   return (
-    <p className="mt-4 text-lg font-semibold text-indigo-600 md:text-xl">
+    <p className="mt-2 text-base font-medium text-sky-300 md:text-lg">
       {text}
-      <span className="ml-0.5 inline-block h-5 w-0.5 animate-pulse bg-indigo-500 align-middle" />
+      <span className="ml-0.5 inline-block h-4 w-0.5 animate-pulse bg-sky-400 align-middle md:h-5" />
     </p>
   );
 }

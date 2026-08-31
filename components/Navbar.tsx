@@ -12,7 +12,7 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/80 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-6">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
         <Link href="/" className="group flex flex-col">
           <span className="text-lg font-bold tracking-tight text-slate-900">
             {siteConfig.name}
