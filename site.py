@@ -267,7 +267,7 @@ if page == "Les services que je propose":
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.markdown("""<div class="service-box"><div class="emoji">📈</div><h3>Data Analytics & BI</h3><p>Nettoyage, modélisation et visualisation de données pour transformer les KPIs en décisions actionnables.</p></div>""", unsafe_allow_html=True)
+        st.markdown("""<div class="service-box"><div class="emoji">📈</div><h3>Data Science & Analytics</h3><p>Accompagnement complet en data science : nettoyage et préparation des données, création et optimisation de modèles Machine Learning et Deep Learning, évaluation des performances, visualisation des KPIs et déploiement en production de solutions prédictives actionnables.</p></div>""", unsafe_allow_html=True)
     with col2:
         st.markdown("""<div class="service-box"><div class="emoji">🤖</div><h3>IA Générative & Prédictive</h3><p>LLM, RAG, OCR et modèles ML/DL pour automatiser les tâches métier et améliorer la performance opérationnelle.</p></div>""", unsafe_allow_html=True)
     with col3:

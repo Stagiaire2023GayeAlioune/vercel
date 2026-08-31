@@ -27,9 +27,9 @@ export const typewriterTexts = [
 export const services = [
   {
     icon: "chart",
-    title: "Data Analytics & BI",
+    title: "Data Science & Analytics",
     description:
-      "Nettoyage, modélisation et visualisation de données pour transformer les KPIs en décisions actionnables.",
+      "Accompagnement complet en data science : nettoyage et préparation des données, création et optimisation de modèles Machine Learning et Deep Learning, évaluation des performances, visualisation des KPIs et déploiement en production de solutions prédictives actionnables.",
   },
   {
     icon: "brain",
