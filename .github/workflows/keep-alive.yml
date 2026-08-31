@@ -1,0 +1,19 @@
+# Réveille automatiquement l'app Streamlit Cloud (évite l'écran "Zzzz")
+# Nécessite que ce dépôt soit sur GitHub et que les Actions soient activées.
+name: Keep Streamlit Alive
+
+on:
+  schedule:
+    # Toutes les 5 minutes (minimum utile pour Streamlit Cloud gratuit)
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping portfolio Streamlit
+        run: |
+          curl -sSL -o /dev/null -w "HTTP %{http_code}\n" \
+            --max-time 120 \
+            "https://mon-portfoio-gaye-alioune.streamlit.app/"
