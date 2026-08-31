@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Phone } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import { siteConfig } from "@/lib/data";
 
 export function Footer() {
@@ -16,13 +16,6 @@ export function Footer() {
             >
               <Linkedin size={16} />
               LinkedIn
-            </a>
-            <a
-              href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-              className="inline-flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-700 hover:border-indigo-300 hover:text-indigo-700 transition-colors"
-            >
-              <Phone size={16} />
-              {siteConfig.phone}
             </a>
             <a
               href={`mailto:${siteConfig.email}`}

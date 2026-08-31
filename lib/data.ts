@@ -7,7 +7,6 @@ export const siteConfig = {
   profileImage:
     "https://raw.githubusercontent.com/Stagiaire2023GayeAlioune/Mon_application_AutoML/master/dv_lottery.jpg",
   email: "aliounegaye911@gmail.com",
-  phone: "+33763556982",
   linkedin: "https://www.linkedin.com/in/alioune-gaye-1a5161172/",
 };
 

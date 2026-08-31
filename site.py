@@ -560,9 +560,6 @@ st.markdown("""
     <a href='https://www.linkedin.com/in/alioune-gaye-1a5161172/' target='_blank' style='margin-right: 15px;'>
         <img src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png' style='width:20px;'> LinkedIn
     </a>
-    <a href='tel:+33763556982' style='margin-right: 15px;'>
-        <img src='https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png' style='width:20px;'> 0763556982
-    </a>
     <a href='mailto:aliounegaye911@gmail.com'>
         <img src='https://upload.wikimedia.org/wikipedia/commons/2/27/Android_Email_4.4_Icon.png' style='width:20px;'> aliounegaye911@gmail.com
     </a><br><br>
