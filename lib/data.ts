@@ -278,11 +278,12 @@ export const aboutContent = {
     ],
   },
   domains: [
-    "Développement de plateformes métier (CRM, marketing automation, outils de pilotage)",
-    "Industrialisation de workflows data/IA pour les équipes opérationnelles",
-    "Intégration d'outils multicanaux (WhatsApp, réseaux sociaux, email, API tierces)",
-    "Conception d'interfaces modernes orientées expérience utilisateur",
-    "Structuration des données, reporting, dashboards et KPIs décisionnels",
+    "Analyse exploratoire, statistique avancée et modélisation prédictive pour transformer la donnée en insights actionnables",
+    "Conception, entraînement et optimisation de modèles Machine Learning et Deep Learning (classification, régression, NLP, vision)",
+    "Déploiement et industrialisation de solutions data/IA en production (API, pipelines, monitoring, MLOps léger)",
+    "Traitement de données complexes : nettoyage, feature engineering, séries temporelles et qualité des jeux de données",
+    "Visualisation, reporting et tableaux de bord décisionnels (Power BI, Streamlit, dashboards sur mesure)",
+    "IA appliquée : RAG, OCR, LLM et automatisation de processus à partir de données structurées et non structurées",
   ],
   softSkills: [
     "Communication claire, esprit d'équipe et collaboration transverse",
