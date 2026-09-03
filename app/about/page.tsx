@@ -84,53 +84,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="mt-14">
-        <h2 className="section-title">Compétences techniques</h2>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
-          {aboutContent.techSkills.map((skill) => (
-            <div key={skill.category} className="card">
-              <h3 className="font-semibold text-slate-900">{skill.category}</h3>
-              <p className="mt-2 text-sm text-slate-600">{skill.items}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-14 grid gap-8 lg:grid-cols-3">
-        <div>
-          <h2 className="text-lg font-bold text-slate-900">Langages</h2>
-          <ul className="mt-4 space-y-3 text-sm text-slate-600">
-            {aboutContent.languages.map((l) => (
-              <li key={l.group}>
-                <span className="font-medium text-slate-800">{l.group} :</span>{" "}
-                {l.items}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h2 className="text-lg font-bold text-slate-900">Visualisation</h2>
-          <ul className="mt-4 space-y-3 text-sm text-slate-600">
-            {aboutContent.tools.slice(0, 2).map((t) => (
-              <li key={t.group}>
-                <span className="font-medium text-slate-800">{t.group} :</span>{" "}
-                {t.items}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h2 className="text-lg font-bold text-slate-900">Cloud & Collaboration</h2>
-          <ul className="mt-4 space-y-3 text-sm text-slate-600">
-            {aboutContent.tools.slice(2).map((t) => (
-              <li key={t.group}>
-                <span className="font-medium text-slate-800">{t.group} :</span>{" "}
-                {t.items}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
     </>
   );
 }
